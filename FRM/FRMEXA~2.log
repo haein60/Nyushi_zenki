@@ -1,0 +1,21 @@
+行 545: ｸﾗｽ MSHierarchicalFlexGridLib.MSHFlexGrid(ｺﾝﾄﾛｰﾙ hfgSearchGrid) はﾛｰﾄﾞされていません。
+行 729: ｸﾗｽ MSComCtl2.DTPicker(ｺﾝﾄﾛｰﾙ dtBirthDay) はﾛｰﾄﾞされていません。
+行 743: ｸﾗｽ MSComCtl2.DTPicker(ｺﾝﾄﾛｰﾙ dtSecondDayExam) はﾛｰﾄﾞされていません。
+行 551: ﾌﾟﾛﾊﾟﾃｨ名 _ExtentX(hfgSearchGrid) が不正です。
+行 552: ﾌﾟﾛﾊﾟﾃｨ名 _ExtentY(hfgSearchGrid) が不正です。
+行 553: ﾌﾟﾛﾊﾟﾃｨ名 _Version(hfgSearchGrid) が不正です。
+行 554: ﾌﾟﾛﾊﾟﾃｨ名 AllowUserResizing(hfgSearchGrid) が不正です。
+行 555: ﾌﾟﾛﾊﾟﾃｨ名 _NumberOfBands(hfgSearchGrid) が不正です。
+行 556: ﾌﾟﾛﾊﾟﾃｨ名 _Band(0).Cols(hfgSearchGrid) が不正です。
+行 736: ﾌﾟﾛﾊﾟﾃｨ名 _ExtentX(dtBirthDay) が不正です。
+行 737: ﾌﾟﾛﾊﾟﾃｨ名 _ExtentY(dtBirthDay) が不正です。
+行 738: ﾌﾟﾛﾊﾟﾃｨ名 _Version(dtBirthDay) が不正です。
+行 739: ﾌﾟﾛﾊﾟﾃｨ名 CustomFormat(dtBirthDay) が不正です。
+行 740: ﾌﾟﾛﾊﾟﾃｨ名 Format(dtBirthDay) が不正です。
+行 741: ﾌﾟﾛﾊﾟﾃｨ名 CurrentDate(dtBirthDay) が不正です。
+行 750: ﾌﾟﾛﾊﾟﾃｨ名 _ExtentX(dtSecondDayExam) が不正です。
+行 751: ﾌﾟﾛﾊﾟﾃｨ名 _ExtentY(dtSecondDayExam) が不正です。
+行 752: ﾌﾟﾛﾊﾟﾃｨ名 _Version(dtSecondDayExam) が不正です。
+行 753: ﾌﾟﾛﾊﾟﾃｨ名 CustomFormat(dtSecondDayExam) が不正です。
+行 754: ﾌﾟﾛﾊﾟﾃｨ名 Format(dtSecondDayExam) が不正です。
+行 755: ﾌﾟﾛﾊﾟﾃｨ名 CurrentDate(dtSecondDayExam) が不正です。

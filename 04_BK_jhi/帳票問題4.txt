@@ -1,0 +1,3 @@
+
+tbSTETotalCategory
+case when sum(sc.iAbsentFlag)>0 then null else  (sum( case when sp.iExamType = 1 then sc.fRawScore else null end )) end

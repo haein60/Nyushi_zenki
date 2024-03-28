@@ -1,0 +1,16 @@
+以下の文字の羅列は、GaoEncodeの文字列暗号化機能で暗号化されたデータです。
+
+解除キーの設定 "GaoEncode"（半角英文字）で暗号化してあります。
+文字列をコピーして、Decodeしてみてください。
+
+
+eumbvUfHBQ4nAQAAoPgSAHJ0BdYx+DVorlfjHfpg1mXByCj4tJ8h8YV18m7lYLFU5GosbgKQxX2x
+ZvD6WbIv2VRttuNubgzMOxtSbn9xuqSe2sYeqk/XP0b3JF41MjQsOT/ES6rvhZIZzGg0vbGnggK2
+zLcO/mjzPQqa+RPfT2Kg5SpQX+D6W6/Tep3nYlDxvQs87Hv74Yd/hGyZUFFwNhUovzJxA/BYaKrd
+xYVQKHJztotNZLwOE8leg3n3GNjRLGPJMfETfY3g2r6UBnVdBWnRN1lXioKhW2DukN+ZopYYixEx
+fGlasOR/+treXt39kd9eX10MNgoPLPitTtVMqENw5ZOFyP5J7EW9KP1p3pq67fawhgshqRYmLFyq
+dw9gQXK//s70AX6favpAMMQg7+44IMsGGmbt
+
+
+暗号化した文字列をメールに張り付けるもよし、掲示板に書き込むもよし、使い方は
+いろいろあると思います。

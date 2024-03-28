@@ -1,0 +1,14 @@
+GaoEncodeで、GCA/RAR圧縮を行う際に必要となる
+GCAC.EXE/RAR.EXEの入手先はこちらです（2002/06/22現在）
+
+○GCAC.EXE
+　http://www.emit.jp/
+
+　このページで公開されている「GCA」というソフトウエアに、
+　GCAC.EXEは含まれています。
+
+○RAR.EXE
+　http://www.diana.dti.ne.jp/~winrar/
+
+　このページで公開されている「WinRAR」というソフトウエアに、
+　RAR.EXEは含まれています。

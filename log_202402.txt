@@ -1,0 +1,157 @@
+2024/02/13 14:01:08 1-----> sMacAddr=000C291B6D07
+2024/02/13 14:01:08 2-----> sUserPass=USER sCnvUserID=XjHatuXhQdcCAAAAAAAAAM8hjIrRnAKo
+2024/02/13 14:01:08 3-----> sMacPass=MAC sCnvMacAddr=t3dvQ7eVAPMNAAAAAAAAAAWLHOIJbPaK0iCokIXM/lk=
+2024/02/13 14:01:08 4-----> sSQL=SELECT vDATA1 FROM tbSTEWorkTbl 
+2024/02/13 14:01:08 5-----> sMenuIDStr=edeG96HYssUCAAAAAAAAAGjFSNC7YUC6
+2024/02/13 14:01:08 6-----> sMenuGPass=MENUG lMenuID=2
+2024/02/13 14:01:08 7-----> sSQL=SELECT vMenuString FROM tbSTEMenuGroup WHERE iMenuGroupID =  2
+2024/02/13 14:01:08 8-----> sMenuString=TXVmqxBv3CYGAAAAAAAAAIWZId7/8b3G
+2024/02/13 14:01:08 9-----> sMenuPass=MENU sMenuSection=MENU2
+2024/02/13 14:17:06 1-----> sMacAddr=000C291B6D07
+2024/02/13 14:17:06 2-----> sUserPass=USER sCnvUserID=XjHatuXhQdcCAAAAAAAAAM8hjIrRnAKo
+2024/02/13 14:17:06 3-----> sMacPass=MAC sCnvMacAddr=t3dvQ7eVAPMNAAAAAAAAAAWLHOIJbPaK0iCokIXM/lk=
+2024/02/13 14:17:06 4-----> sSQL=SELECT vDATA1 FROM tbSTEWorkTbl 
+2024/02/13 14:17:06 5-----> sMenuIDStr=edeG96HYssUCAAAAAAAAAGjFSNC7YUC6
+2024/02/13 14:17:06 6-----> sMenuGPass=MENUG lMenuID=2
+2024/02/13 14:17:06 7-----> sSQL=SELECT vMenuString FROM tbSTEMenuGroup WHERE iMenuGroupID =  2
+2024/02/13 14:17:06 8-----> sMenuString=TXVmqxBv3CYGAAAAAAAAAIWZId7/8b3G
+2024/02/13 14:17:06 9-----> sMenuPass=MENU sMenuSection=MENU2
+2024/02/13 15:46:35 1-----> sMacAddr=000C291B6D07
+2024/02/13 15:46:35 2-----> sUserPass=USER sCnvUserID=XjHatuXhQdcCAAAAAAAAAM8hjIrRnAKo
+2024/02/13 15:46:35 3-----> sMacPass=MAC sCnvMacAddr=t3dvQ7eVAPMNAAAAAAAAAAWLHOIJbPaK0iCokIXM/lk=
+2024/02/13 15:46:35 4-----> sSQL=SELECT vDATA1 FROM tbSTEWorkTbl 
+2024/02/13 15:46:35 5-----> sMenuIDStr=edeG96HYssUCAAAAAAAAAGjFSNC7YUC6
+2024/02/13 15:46:35 6-----> sMenuGPass=MENUG lMenuID=2
+2024/02/13 15:46:35 7-----> sSQL=SELECT vMenuString FROM tbSTEMenuGroup WHERE iMenuGroupID =  2
+2024/02/13 15:46:35 8-----> sMenuString=TXVmqxBv3CYGAAAAAAAAAIWZId7/8b3G
+2024/02/13 15:46:35 9-----> sMenuPass=MENU sMenuSection=MENU2
+2024/02/13 16:22:45 1-----> sMacAddr=000C291B6D07
+2024/02/13 16:22:45 2-----> sUserPass=USER sCnvUserID=XjHatuXhQdcCAAAAAAAAAM8hjIrRnAKo
+2024/02/13 16:22:45 3-----> sMacPass=MAC sCnvMacAddr=t3dvQ7eVAPMNAAAAAAAAAAWLHOIJbPaK0iCokIXM/lk=
+2024/02/13 16:22:45 4-----> sSQL=SELECT vDATA1 FROM tbSTEWorkTbl 
+2024/02/13 16:22:45 5-----> sMenuIDStr=edeG96HYssUCAAAAAAAAAGjFSNC7YUC6
+2024/02/13 16:22:45 6-----> sMenuGPass=MENUG lMenuID=2
+2024/02/13 16:22:45 7-----> sSQL=SELECT vMenuString FROM tbSTEMenuGroup WHERE iMenuGroupID =  2
+2024/02/13 16:22:45 8-----> sMenuString=TXVmqxBv3CYGAAAAAAAAAIWZId7/8b3G
+2024/02/13 16:22:45 9-----> sMenuPass=MENU sMenuSection=MENU2
+2024/02/14 10:15:01 1-----> sMacAddr=000C291B6D07
+2024/02/14 10:15:01 2-----> sUserPass=USER sCnvUserID=XjHatuXhQdcCAAAAAAAAAM8hjIrRnAKo
+2024/02/14 10:15:01 3-----> sMacPass=MAC sCnvMacAddr=t3dvQ7eVAPMNAAAAAAAAAAWLHOIJbPaK0iCokIXM/lk=
+2024/02/14 10:15:01 4-----> sSQL=SELECT vDATA1 FROM tbSTEWorkTbl 
+2024/02/14 10:15:01 5-----> sMenuIDStr=edeG96HYssUCAAAAAAAAAGjFSNC7YUC6
+2024/02/14 10:15:01 6-----> sMenuGPass=MENUG lMenuID=2
+2024/02/14 10:15:01 7-----> sSQL=SELECT vMenuString FROM tbSTEMenuGroup WHERE iMenuGroupID =  2
+2024/02/14 10:15:01 8-----> sMenuString=TXVmqxBv3CYGAAAAAAAAAIWZId7/8b3G
+2024/02/14 10:15:01 9-----> sMenuPass=MENU sMenuSection=MENU2
+2024/02/14 12:11:11 1-----> sMacAddr=000C291B6D07
+2024/02/14 12:11:11 2-----> sUserPass=USER sCnvUserID=XjHatuXhQdcCAAAAAAAAAM8hjIrRnAKo
+2024/02/14 12:11:11 3-----> sMacPass=MAC sCnvMacAddr=t3dvQ7eVAPMNAAAAAAAAAAWLHOIJbPaK0iCokIXM/lk=
+2024/02/14 12:11:11 4-----> sSQL=SELECT vDATA1 FROM tbSTEWorkTbl 
+2024/02/14 12:11:11 5-----> sMenuIDStr=edeG96HYssUCAAAAAAAAAGjFSNC7YUC6
+2024/02/14 12:11:11 6-----> sMenuGPass=MENUG lMenuID=2
+2024/02/14 12:11:11 7-----> sSQL=SELECT vMenuString FROM tbSTEMenuGroup WHERE iMenuGroupID =  2
+2024/02/14 12:11:11 8-----> sMenuString=TXVmqxBv3CYGAAAAAAAAAIWZId7/8b3G
+2024/02/14 12:11:11 9-----> sMenuPass=MENU sMenuSection=MENU2
+2024/02/14 12:16:04 Å•Å•Å• Form_Load START(frmManualAllocationGrp) Å•Å•Å•
+2024/02/14 12:16:04 ==== Add_cboSubject START ====
+2024/02/14 12:16:04 ==== Add_cboSubject END   ====
+2024/02/14 12:16:04 ==== cboSubject_Click START ====
+2024/02/14 12:16:04 ==== Add_cboSplDayFrom  START ====
+2024/02/14 12:16:04 ==== Add_cboSplDayFrom  END   ====
+2024/02/14 12:16:04 ===Å• cboSplDayFrom_Click START Å•===
+2024/02/14 12:16:04 ÅúÅú Add_cboSplRoomFrom START ÅúÅú
+2024/02/14 12:16:04 txtTotalExamineesDay.Text ---->0
+2024/02/14 12:16:04 ÅúÅú Add_cboSplRoomFrom END   ÅúÅú
+2024/02/14 12:16:04 Åõ cboSplRoomFrom_Click START Åõ
+2024/02/14 12:16:04 1. ---- l_void_PopulateFromList start ----
+2024/02/14 12:16:04 2. ---- l_void_PopulateFromList strSQL   ----
+2024/02/14 12:16:04 3. strSQL= SELECT iExamineeProfileId FROM tbSTEExamineeProfile as ep where exists ( SELECT iExamineeProfileId FROM tbSTEExamineeRoomProfile as er  WHERE iRoomProfileId=( SELECT iRoomProfileId FROM tbSTERoomProfile WHERE vRoomName='GP01') AND iSubjectProfileId = (SELECT iSubjectProfileId FROM tbSTESubjectProfile WHERE vSubjectName='ñ ê⁄áT') AND not exists ( select 1 from tbSTEScoreProfile as sc where sc.iExamineeProfileID = er.iExamineeProfileId and sc.iSubjectProfileId = er.iSubjectProfileId and iAbsentFlag=1 )  AND ep.iNendo=2024 AND convert(varchar(4),er.dtCreate,112)='2024' AND er.iExamineeProfileId = ep.iExamineeProfileId )  AND iNendo=2024
+2024/02/14 12:16:05 4. strSQL OPEN ato
+2024/02/14 12:16:05 5. Do While ato
+2024/02/14 12:16:05 6. ---- l_void_PopulateFromList end   ----
+2024/02/14 12:16:05 ==== Add_cboSplRoom START ====
+2024/02/14 12:16:06 ==== Add_cboSplRoom END   ====
+2024/02/14 12:16:06 ==== cboSplRoom_Click START ====
+2024/02/14 12:16:06 ==== l_void_PopulateList START ====
+2024/02/14 12:16:07 ==== l_void_PopulateList END   ====
+2024/02/14 12:16:07 ==== cboSplRoom_Click END   ====
+2024/02/14 12:16:07 cboSplRoom.ListIndex=1 --->Ç±ÇÃéücboSplRoom_ClickÇ™ëñÇÈ
+2024/02/14 12:16:07 Åõ cboSplRoomFrom_Click END   Åõ
+2024/02/14 12:16:07 ===Å£ cboSplDayFrom_Click END   Å£===
+2024/02/14 12:16:07 ÅúÅú Add_cboSplRoomFrom START ÅúÅú
+2024/02/14 12:16:07 txtTotalExamineesDay.Text ---->0
+2024/02/14 12:16:07 ÅúÅú Add_cboSplRoomFrom END   ÅúÅú
+2024/02/14 12:16:07 Åõ cboSplRoomFrom_Click START Åõ
+2024/02/14 12:16:07 ---- ÅöcboSplRoomFrom_Click end(2âÒÇæÇ©ÇÁ) ----
+2024/02/14 12:16:07 ==== f_void_CheckButtonStatus START ====
+2024/02/14 12:16:07 ==== f_void_CheckButtonStatus END   ====
+2024/02/14 12:16:07 Å£Å£Å£ Form_Load END  (frmManualAllocationGrp) Å£Å£Å£
+2024/02/14 12:17:41 === Form_Unload START   ===
+2024/02/14 12:17:41 === Form_Unload END   ===
+2024/02/14 12:27:13 1-----> sMacAddr=000C291B6D07
+2024/02/14 12:27:13 2-----> sUserPass=USER sCnvUserID=XjHatuXhQdcCAAAAAAAAAM8hjIrRnAKo
+2024/02/14 12:27:13 3-----> sMacPass=MAC sCnvMacAddr=t3dvQ7eVAPMNAAAAAAAAAAWLHOIJbPaK0iCokIXM/lk=
+2024/02/14 12:27:13 4-----> sSQL=SELECT vDATA1 FROM tbSTEWorkTbl 
+2024/02/14 12:27:13 5-----> sMenuIDStr=edeG96HYssUCAAAAAAAAAGjFSNC7YUC6
+2024/02/14 12:27:13 6-----> sMenuGPass=MENUG lMenuID=2
+2024/02/14 12:27:13 7-----> sSQL=SELECT vMenuString FROM tbSTEMenuGroup WHERE iMenuGroupID =  2
+2024/02/14 12:27:13 8-----> sMenuString=TXVmqxBv3CYGAAAAAAAAAIWZId7/8b3G
+2024/02/14 12:27:13 9-----> sMenuPass=MENU sMenuSection=MENU2
+2024/02/14 12:27:34 Å•Å•Å• Form_Load START(frmManualAllocationGrp) Å•Å•Å•
+2024/02/14 12:27:34 ==== Add_cboSubject START ====
+2024/02/14 12:27:34 ==== Add_cboSubject END   ====
+2024/02/14 12:27:34 ==== cboSubject_Click START ====
+2024/02/14 12:27:34 ==== Add_cboSplDayFrom  START ====
+2024/02/14 12:27:34 ==== Add_cboSplDayFrom  END   ====
+2024/02/14 12:27:34 ===Å• cboSplDayFrom_Click START Å•===
+2024/02/14 12:27:34 ÅúÅú Add_cboSplRoomFrom START ÅúÅú
+2024/02/14 12:27:34 txtTotalExamineesDay.Text ---->0
+2024/02/14 12:27:34 ÅúÅú Add_cboSplRoomFrom END   ÅúÅú
+2024/02/14 12:27:34 Åõ cboSplRoomFrom_Click START Åõ
+2024/02/14 12:27:34 1. ---- l_void_PopulateFromList start ----
+2024/02/14 12:27:34 2. ---- l_void_PopulateFromList strSQL   ----
+2024/02/14 12:27:34 3. strSQL= SELECT iExamineeProfileId FROM tbSTEExamineeProfile as ep where exists ( SELECT iExamineeProfileId FROM tbSTEExamineeRoomProfile as er  WHERE iRoomProfileId=( SELECT iRoomProfileId FROM tbSTERoomProfile WHERE vRoomName='GP01') AND iSubjectProfileId = (SELECT iSubjectProfileId FROM tbSTESubjectProfile WHERE vSubjectName='ñ ê⁄áT') AND not exists ( select 1 from tbSTEScoreProfile as sc where sc.iExamineeProfileID = er.iExamineeProfileId and sc.iSubjectProfileId = er.iSubjectProfileId and iAbsentFlag=1 )  AND ep.iNendo=2024 AND convert(varchar(4),er.dtCreate,112)='2024' AND er.iExamineeProfileId = ep.iExamineeProfileId )  AND iNendo=2024
+2024/02/14 12:27:35 4. strSQL OPEN ato
+2024/02/14 12:27:35 5. Do While ato
+2024/02/14 12:27:35 6. ---- l_void_PopulateFromList end   ----
+2024/02/14 12:27:35 ==== Add_cboSplRoom START ====
+2024/02/14 12:27:36 ==== Add_cboSplRoom END   ====
+2024/02/14 12:27:36 ==== cboSplRoom_Click START ====
+2024/02/14 12:27:36 ==== l_void_PopulateList START ====
+2024/02/14 12:27:37 ==== l_void_PopulateList END   ====
+2024/02/14 12:27:37 ==== cboSplRoom_Click END   ====
+2024/02/14 12:27:37 cboSplRoom.ListIndex=1 --->Ç±ÇÃéücboSplRoom_ClickÇ™ëñÇÈ
+2024/02/14 12:27:37 Åõ cboSplRoomFrom_Click END   Åõ
+2024/02/14 12:27:37 ===Å£ cboSplDayFrom_Click END   Å£===
+2024/02/14 12:27:37 ÅúÅú Add_cboSplRoomFrom START ÅúÅú
+2024/02/14 12:27:37 txtTotalExamineesDay.Text ---->0
+2024/02/14 12:27:37 ÅúÅú Add_cboSplRoomFrom END   ÅúÅú
+2024/02/14 12:27:37 Åõ cboSplRoomFrom_Click START Åõ
+2024/02/14 12:27:37 ---- ÅöcboSplRoomFrom_Click end(2âÒÇæÇ©ÇÁ) ----
+2024/02/14 12:27:37 ==== f_void_CheckButtonStatus START ====
+2024/02/14 12:27:37 ==== f_void_CheckButtonStatus END   ====
+2024/02/14 12:27:37 Å£Å£Å£ Form_Load END  (frmManualAllocationGrp) Å£Å£Å£
+2024/02/14 12:27:45 ===Å• cboSplDayFrom_Click START Å•===
+2024/02/14 12:27:45 ÅúÅú Add_cboSplRoomFrom START ÅúÅú
+2024/02/14 12:27:45 txtTotalExamineesDay.Text ---->0
+2024/02/14 12:27:45 ÅúÅú Add_cboSplRoomFrom END   ÅúÅú
+2024/02/14 12:27:45 Åõ cboSplRoomFrom_Click START Åõ
+2024/02/14 12:27:45 1. ---- l_void_PopulateFromList start ----
+2024/02/14 12:27:45 2. ---- l_void_PopulateFromList strSQL   ----
+2024/02/14 12:27:45 3. strSQL= SELECT iExamineeProfileId FROM tbSTEExamineeProfile as ep where exists ( SELECT iExamineeProfileId FROM tbSTEExamineeRoomProfile as er  WHERE iRoomProfileId=( SELECT iRoomProfileId FROM tbSTERoomProfile WHERE vRoomName='GP01') AND iSubjectProfileId = (SELECT iSubjectProfileId FROM tbSTESubjectProfile WHERE vSubjectName='ñ ê⁄áT') AND not exists ( select 1 from tbSTEScoreProfile as sc where sc.iExamineeProfileID = er.iExamineeProfileId and sc.iSubjectProfileId = er.iSubjectProfileId and iAbsentFlag=1 )  AND ep.iNendo=2024 AND convert(varchar(4),er.dtCreate,112)='2024' AND er.iExamineeProfileId = ep.iExamineeProfileId )  AND iNendo=2024
+2024/02/14 12:27:47 4. strSQL OPEN ato
+2024/02/14 12:27:47 5. Do While ato
+2024/02/14 12:27:47 6. ---- l_void_PopulateFromList end   ----
+2024/02/14 12:27:47 ==== Add_cboSplRoom START ====
+2024/02/14 12:27:47 ==== Add_cboSplRoom END   ====
+2024/02/14 12:27:47 ==== cboSplRoom_Click START ====
+2024/02/14 12:27:47 ==== l_void_PopulateList START ====
+2024/02/14 12:27:48 ==== l_void_PopulateList END   ====
+2024/02/14 12:27:48 ==== cboSplRoom_Click END   ====
+2024/02/14 12:27:48 cboSplRoom.ListIndex=1 --->Ç±ÇÃéücboSplRoom_ClickÇ™ëñÇÈ
+2024/02/14 12:27:48 Åõ cboSplRoomFrom_Click END   Åõ
+2024/02/14 12:27:48 ===Å£ cboSplDayFrom_Click END   Å£===
+2024/02/14 12:27:52 ==== cboSubject_Click START ====
+2024/02/14 12:27:55 ==== cboSubject_Click START ====
+2024/02/14 12:28:17 === Form_Unload START   ===
+2024/02/14 12:28:17 === Form_Unload END   ===

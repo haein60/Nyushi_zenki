@@ -1,0 +1,323 @@
+[General]
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+
+;SQL="SELECT iModuleReportId,vParameterString FROM tbSTRReportData"
+SQL="EXEC uspSTRWatchReport 1"
+
+STARTPAGE=0
+ENDPAGE=0
+DESTNATION=1
+PRINTER=""
+
+Interval=3
+Timeout=30
+
+
+[100100]	"志願者台帳"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+ADDPARAMS="ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND iJukenNumber BETWEEN %iJnoFrom% AND %iJnoTo%'"
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+;RptFile="stm100.ctr"
+RptFile="stm000.ctr"
+
+[100120]	"チェックリスト（志願者）"
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+;CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+ADDPARAMS="vOrderField='iJukenNumber';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND iJukenNumber BETWEEN %iJnoFrom% AND %iJnoTo%'"
+;RptFile="stm01.ctr"
+RptFile="stm01.ctr"
+
+[100200]	"大卒・中退学者一覧"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+;ADDPARAMS="vOrderField='iJukenNumber';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND iUniversityType in ( 101, 102)'"
+ADDPARAMS="vOrderField='1';ADDCOND='iNendo = %iNendo% AND iUniversityType in ( 101, 102)'"
+RptFile="stm000.ctr"
+
+[100300]	"外国籍一覧"
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+;ADDPARAMS="vOrderField='iJukenNumber';ADDCOND='iNationarity in (1)'"
+ADDPARAMS="vOrderField='1';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND iNationality in (1) '"
+RptFile="stm000.ctr"
+
+[100400]	"年齢別一覧"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+;ADDPARAMS="vOrderField='iJukenNumber'"
+ADDPARAMS="vOrderField='1';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% '"
+RptFile="stm000.ctr"
+
+
+[100400]	"職歴者一覧"
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+;ADDPARAMS="vOrderField='iJukenNumber';ADDCOND='iBackgroundId in (1)'"
+ADDPARAMS="vOrderField='1';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND iAdmissionType1 in (8)'"
+RptFile="stm000.ctr"
+
+[100500]	"教員子弟一覧"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+;ADDPARAMS="vOrderField='iJukenNumber';ADDCOND='iFamilyFlag in (1)'"
+ADDPARAMS="vOrderField='1';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND iFamilyFlag in (1)'"
+RptFile="stm000.ctr"
+
+[100600]	"推薦入試経験者一覧"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+;ADDPARAMS="vOrderField='iJukenNumber';ADDCOND='iSuisenFlag in (1)'"
+ADDPARAMS="vOrderField='1';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND iSuisenFlag in (1)'"
+RptFile="stm000.ctr"
+
+[100700]	"独語仏語選択者一覧"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+;ADDPARAMS="vOrderField='iJukenNumber';ADDCOND='fRawScore01 BETWEEN %iLowValue% AND %iHighValue%'"
+ADDPARAMS="vOrderField='1';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% '"
+RptFile="stm000.ctr"
+
+[100800]	"評定平均値による抽出"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+;ADDPARAMS="vOrderField='iJukenNumber';ADDCOND='fRawScore01 BETWEEN %iLowValue% AND %iHighValue%'"
+ADDPARAMS="vOrderField='1';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND fRawScore01 BETWEEN %iLowValue% AND %iHighValue%'"
+RptFile="stm000.ctr"
+
+[100900]	"欠席日数の多い人抽出"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+;ADDPARAMS="vOrderField='iJukenNumber';ADDCOND='fRawScore01 BETWEEN %iLowValue% AND %iHighValue%'"
+ADDPARAMS="vOrderField='1';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND fRawScore01 BETWEEN %iLowValue% AND %iHighValue%'"
+RptFile="stm000.ctr"
+	
+[200100]	"試験会場割当表"
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR=""
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm002.ctr"
+ADDPARAMS="ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% "
+RptFile="stm002.ctr"
+
+[200300]	"試験場別（受験者一覧）"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR=""
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm004.ctr"
+ADDPARAMS="ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND iRan=ISNULL(%iRandom%,iRan)''"
+RptFile="stm004.ctr"
+
+[200400]	"欠席者名簿"
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iSubjectProfileId%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+ADDPARAMS="vOrderField='1';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND fRawScore01=1'"
+RptFile="stm000.ctr"
+
+
+[200500]	"受験者名簿"
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+ADDPARAMS="vOrderField='1';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND ( iRandom is null or iRandom=case when 1%iRandom% = 1 then iRandom else convert( numeric , %iRandom%0 ) / 10 end )'"
+RptFile="stm000.ctr"
+
+
+[200600]	"試験結果"
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+;CONSTRUCTOR="exec uspSTESeisekiIchiran %iSubjectProfileId%,%iNendo%"
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm100.ctr"
+ADDPARAMS="vOrderField='1';ADDCOND='iReportNo=%iReportNo% and iNendo=%iNendo% and ( iRandom is null or iRandom=case when 1%iRandom% = 1 then iRandom else convert( numeric , %iRandom%0 ) / 10 end )'"
+RptFile="stm100.ctr"
+
+
+[200700]	"合格者一覧"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+ADDPARAMS="ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND iExamineeStatus=1'"
+RptFile="stm000.ctr"
+
+
+[300100]	"受験者一覧（受験番号順）"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+ADDPARAMS="ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND iExamineeStatus>1 AND dtSecondExamDay=%%'"
+RptFile="stm000.ctr"
+
+[300400]	"欠席者名簿"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iSubjectProfileId%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+ADDPARAMS="vOrderField='iJukenNumber';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND fRawScore01=1'"
+RptFile="stm000.ctr"
+
+[300500]	"試験結果"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm100.ctr"
+;ADDPARAMS="vOrderField='iJukenNumber'"
+ADDPARAMS="vOrderField='1';ADDCOND='iReportNo=%iReportNo% and iNendo=%iNendo%'"
+RptFile="stm100.ctr"
+
+[300600]	"2次試験正規合格者一覧"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+ADDPARAMS="vOrderField='iJukenNumber';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND iExamineeStatus=2'"
+RptFile="stm000.ctr"
+
+[300700]	"二次試験合格者一覧"
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+ADDPARAMS="vOrderField='iJukenNumber';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND iExamineeStatus in (2,6)'"
+RptFile="stm000.ctr"
+
+
+[300800]	"試験官割当表"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR=""
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm05.ctr"
+RptFile="stm05.ctr"
+
+[400100]	"入学予定者一覧"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+ADDPARAMS="vOrderField='iJukenNumber';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND iExamineeStatus in (2,6)'"
+RptFile="stm000.ctr"
+
+[400200]	"入学者一覧"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+ADDPARAMS="vOrderField='iJukenNumber';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND iExamineeStatus in (2,6)'"
+RptFile="stm000.ctr"
+
+[400500]	"繰上対象者一覧"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+ADDPARAMS="vOrderField='iJukenNumber';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND iExamineeStatus in (2,6)'"
+RptFile="stm000.ctr"
+
+[400600]	"入学辞退者一覧"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+ADDPARAMS="vOrderField='iJukenNumber';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND iExamineeStatus in (2,6)'"
+RptFile="stm000.ctr"
+
+[400700]	"繰上合格者一覧"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+ADDPARAMS="vOrderField='iJukenNumber';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND iExamineeStatus in (2,6)'"
+RptFile="stm000.ctr"
+
+[400800]	"辞退繰上合格者一覧"	
+DataSource=STMNYUSHI
+Login=sa
+Password=""
+CONSTRUCTOR="exec uspSTESeisekiIchiran %iReportNo%,%iNendo%"
+DESTRUCTOR=""
+;RptFile="C:\crgsrv\crgdef\stm000.ctr"
+ADDPARAMS="vOrderField='iJukenNumber';ADDCOND='iReportNo= %iReportNo% AND iNendo = %iNendo% AND iExamineeStatus in (2,6)'"
+RptFile="stm000.ctr"

@@ -1,0 +1,58 @@
+このフォルダの中には
+GaoeAPIをWindows Scripting Hostを利用するサンプルが納められています。
+VBScriptで書かれていますがもちろんJScriptからもGaoeAPIを利用できます。
+
+上手にスクリプトを書くことができれば、作業を自動化することができるので
+作業効率の向上につながります。
+
+○GetVersion.vbs
+  GaoEncodeのバージョンを取得します。
+
+○MyDocument_Encode.vbs
+  マイドキュメント内のすべてのファイルをEncodeします。
+  暗号化ファイルはマイドキュメントの中のSampleEncodeフォルダ
+  SampleEnc(MyDoc).gaoで保存されます。
+  
+  解除キー	：GaoEncode （文字列）
+  暗号の種類：CAST-128
+  分割		：なし
+  圧縮		：deflate圧縮
+  偽装		：なし(.gao)
+  情報隠蔽	：する
+  
+  ↑上記設定で暗号化します。
+  
+○D&D_Encode.vbs
+  D&D_Encode.vbsのアイコン/ショートカットにD&Dされた
+  ファイル(フォルダ）をEncodeします。
+  暗号化ファイルはマイドキュメントの中のSampelEncodeフォルダ
+  SampleEncXXX.jpgで保存されます。
+  
+  解除キー	：GaoEncode （文字列）
+  暗号の種類：Blowfish
+  分割		：200～250KB
+  圧縮		：CAB圧縮
+  偽装		：がおぇ内蔵JPEG(.jpg)
+  情報隠蔽	：しない
+  
+  ↑上記設定で暗号化します。
+  
+○D&D_Decode.vbs
+ D&D_Decode.vbsのアイコン/ショートカットにD&DされたファイルをDecodeします。
+ 復号されたファイルはマイドキュメントの中のSampleDecodeフォルダの
+ 中に保存されます。
+ 
+ 解除キー	：GaoEncode　(文字列）
+
+○Clipboard_Encode
+  クリップボード内の文字列を公開鍵システムを用いて暗号化します。
+  暗号化した文字列はクリップボードにコピーされます。
+
+  使用する公開鍵(PublicKey)はsample.txtです。
+
+
+○Clipboard_Decode
+  クリップボード内の文字列を公開鍵システムを用いて復号します。
+  復号された文字列はクリップボードにコピーされます。
+ 
+  使用する秘密鍵(PrivateKey)はsample.binです。

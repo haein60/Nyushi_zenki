@@ -1,0 +1,61 @@
+
+	// GaoEncode.idl : GaoEncode.exe 用 IDL ソース
+//
+// このファイルはタイプライブラリ (GaoEncode.tlb) および
+// マーシャリング コードを作成するために MIDL ツールによって処理されます。
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(365A6A64-9E16-4FC1-97D3-42B40EEB0ADF),
+		dual,
+		helpstring("IGaoeAPI Interface"),
+		pointer_default(unique)
+	]
+	interface IGaoeAPI : IDispatch
+	{
+		[id(1), helpstring("バージョン文字列の取得")] HRESULT GetVersion([out, retval]BSTR *pVal);
+		[id(2), helpstring("ファイルのDecodeを行う")] HRESULT DecodeFile([in] BSTR SrcFile,[in] BSTR pass,[in] long passmode,[in] BSTR OutFolder,[out, retval] long * result);
+		[id(3), helpstring("ファイルのEncodeを行う")] HRESULT EncodeFile([in] BSTR pass,[in] long passmode,[in] BSTR OutFolder,[in] BSTR OutName,[out, retval] long * result);
+		[id(4), helpstring("Encode対象ファイル(フォルダ）リストに追加")] HRESULT AddTarget([in]BSTR Target,[out, retval] long * count);
+		[id(5), helpstring("Encode対象ファイル(フォルダ）リストをクリア")] HRESULT ClearTarget();
+		[propget, id(6), helpstring("暗号の種類")] HRESULT Algorithm([out, retval] long *pVal);
+		[propput, id(6), helpstring("暗号の種類")] HRESULT Algorithm([in] long newVal);
+		[propget, id(7), helpstring("分割最大サイズ")] HRESULT DivideHi([out, retval] long *pVal);
+		[propput, id(7), helpstring("分割最大サイズ")] HRESULT DivideHi([in] long newVal);
+		[propget, id(8), helpstring("分割最小サイズ")] HRESULT DivideLo([out, retval] long *pVal);
+		[propput, id(8), helpstring("分割最小サイズ")] HRESULT DivideLo([in] long newVal);
+		[propget, id(9), helpstring("圧縮の種類")] HRESULT Compression([out, retval] long *pVal);
+		[propput, id(9), helpstring("圧縮の種類")] HRESULT Compression([in] long newVal);
+		[propget, id(10), helpstring("偽装の種類")] HRESULT Disguise([out, retval] long *pVal);
+		[propput, id(10), helpstring("偽装の種類")] HRESULT Disguise([in] long newVal);
+		[propget, id(11), helpstring("偽装に使用するファイル（フォルダ）")] HRESULT DisguiseEx([out, retval] BSTR *pVal);
+		[propput, id(11), helpstring("偽装に使用するファイル（フォルダ）")] HRESULT DisguiseEx([in] BSTR newVal);
+		[propget, id(12), helpstring("情報隠蔽")] HRESULT CryptoList([out, retval] long *pVal);
+		[propput, id(12), helpstring("情報隠蔽")] HRESULT CryptoList([in] long newVal);
+		[id(13), helpstring("なにか")] HRESULT DecodeFile2([in]BSTR SrcFile,[in]BSTR pass,[in] long passmode,[in] BSTR OutFolder,[out,retval]long* result);
+		[id(14), helpstring("文字列の暗号化")] HRESULT EncodeStr([in]BSTR SrcStr,[in]BSTR pass,[in]long passmode,[out,retval]BSTR* DestStr);
+		[id(15), helpstring("文字列の復号")] HRESULT DecodeStr([in]BSTR SrcStr,[in]BSTR pass,[in]long passmode,[out,retval]BSTR* DestStr);
+		[id(16), helpstring("クリップボードの文字列設定")] HRESULT SetClipStr([in]BSTR Str);
+		[id(17), helpstring("クリップボードの文字列取得")] HRESULT GetClipStr([out,retval]BSTR* Str);
+	};
+[
+	uuid(5EE8E27C-C832-45F7-BA64-E38918422D19),
+	version(1.0),
+	helpstring("GaoEncode 1.0 Type Library")
+]
+library GaoEncodeLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+	[
+		uuid(A7DDBBD8-5C70-40F8-9FA4-7CC6F59C0374),
+		helpstring("GaoeAPI Class")
+	]
+	coclass GaoeAPI
+	{
+		[default] interface IGaoeAPI;
+	};
+};
+
+	
